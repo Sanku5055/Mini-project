@@ -40,6 +40,8 @@ public class GetDetails {
 			preparedStatement.setString(2, product.getProductName());
 			preparedStatement.setString(3, product.getProductDescription());
 			preparedStatement.setFloat(4, product.getProductPrice());
+			int value = preparedStatement.executeUpdate();
+			System.out.println("Product Added>>> " + value);
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

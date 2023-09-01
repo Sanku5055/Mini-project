@@ -31,10 +31,6 @@ public class Product {
 		this.productDescription = productDescription;
 	}
 
-	public int getProductQuantity() {
-		return productQuantity;
-	}
-
 	public float getProductPrice() {
 		return productPrice;
 	}
