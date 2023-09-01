@@ -5,7 +5,6 @@ public class Product {
 	private int productId;
 	private String productName;
 	private String productDescription;
-	private static int productQuantity = 10;
 	private float productPrice;
 
 	public int getProductId() {
